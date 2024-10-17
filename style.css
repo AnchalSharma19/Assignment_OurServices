@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #f3f4f6;
+}
+
+#assignment {
+    background: linear-gradient(160deg, #262363 50%, #d9d9ec 50%);
+    padding: 50px 20px;
+}
+
+#assignment h2 {
+    color: white;
+    font-size: 38px;
+    margin-bottom: 40px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.6s ease-in-out;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.service-card:hover {
+    transform: rotate(360deg);
+}
+
+.icon-circle {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #262363;
+    background-color: #fff;
+}
+
+.service-card h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.service-card p {
+    color: #606060;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.service-card a {
+    color: #262363;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.service-card a:hover {
+    color: #1a237e;
+}
